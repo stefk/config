@@ -13,3 +13,7 @@ setfont config/tty/fonts/UbuntuMono-R-16x32.psf
 RED="\[$(tput setaf 1)\]"
 RESET="\[$(tput sgr0)\]"
 PS1="${RED}\$${RESET} "
+
+# search history with up/down arrows
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
