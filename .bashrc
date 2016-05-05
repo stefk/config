@@ -1,10 +1,10 @@
 #### TTY ####
 
 # colors
-setcolors config/tty/colors/solarized.dark
+setcolors ~/config/tty/colors/solarized.dark
 
 # font
-setfont config/tty/fonts/UbuntuMono-R-16x32.psf
+setfont ~/config/tty/fonts/UbuntuMono-R-16x32.psf
 
 # keymap (must be set as root)
 # localectl set-keymap fr-latin1
