@@ -1,0 +1,7 @@
+[user]
+	email = stephaneklein221@gmail.com
+	name = Stéphane Klein
+[push]
+	default = simple
+[core]
+	editor = vim
