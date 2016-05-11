@@ -1,0 +1,25 @@
+*customization: -color
+
+Xft.antialias: 1
+Xft.dpi: 96
+Xft.hinting: 1
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+
+Reswm*termName: xterm-256color
+
+xterm*locale: true
+xterm*saveLines: 4096
+xterm*utf8: 1
+! xterm*faceName: xft:Source Code Pro:pixelsize=20:style:Regular
+xterm*faceName: Ubuntu Mono:pixelsize=32:style=Regular
+
+! colored man pages
+*VT100.colorBDMode:     true
+*VT100.colorBD:         red
+*VT100.colorULMode:     true
+*VT100.colorUL:         cyan
+
+! the following is a clone of https://github.com/altercation/solarized
+#include "/home/stefk/solarized/xresources/solarized"
+
